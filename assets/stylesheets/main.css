@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=============
+Grid
+=============
+*/
+
+*,
+*:before;
+
+*:after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 70vw;
+  position: relative;
+	padding-left: 3.5em;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+/*
+=============
+Clearfix
+=============
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+=============
+Links
+=============
+*/
+
+.row {
+  background: #fff;
+  width: 70vw;
+  padding: 30px 0 30px 0;
+  margin: 10px auto;
+}
+
+/*
+=============
+Typography
+=============
+*/
+
+h3, p {
+  margin-bottom: 2em;
+}
+
+/*
+=============
+Buttons
+=============
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0px;
+}
+
+.btn-alt {
+  background-color: #F7F7F7;
+  border: 1px solid #776587;
+  padding: 10px 30px;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+}
+
+/*
+=============
+Home
+=============
+*/
+
+.hero {
+  padding: 30px 80px 66px 0;
+  text-align: center;
+}
+
+/*
+=============
+Custom Styles
+=============
+*/
+
+body {
+  background-color: #EBE5F1;
+  color: #252525;
+  font: 300 1em/1.25em "Din", "Gidole", Helvetica, sans-serif;
+}
+
+h1 {
+  font: 500 2em/1em "Minion Pro", serif;
+}
+
+h2 {
+  font: 500 1.25em/1.5em "Minion Pro", serif;
+}
+
+h3 {
+  font: 100 1em/1.25em "Din", "Gidole", Helvetica, sans-serif;
+}
+
+h4 {
+  font: 300 1em/1.5em "Din", "Gidole", Helvetica, sans-serif;
+}
+
+h5 {
+  font: 300 1em/1.5em "Minion Pro", serif;
+  color: #6A696B;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 600;
+  color: #636363;
+}
+
+cite,
+em {
+  font-style: italic;
+}
+
+.intro {
+  padding-top: 30px;
+}
+
+/*
+=============
+Links
+=============
+*/
+
+a {
+  color: #7A6889;
+  text-decoration: none;
+  font-weight: 200;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+a:hover {
+  color: #658687;
+  background-color: #ECECEC;
+  cursor: pointer;
+}
+
+.primary-footer {
+  font-size: .8em;
+  font-weight: 400;
+  padding: 44px 0;
+}
+
+.btn-alt:hover {
+  border: 1px solid #898888;
+}
