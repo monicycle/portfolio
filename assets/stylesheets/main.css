@@ -125,6 +125,10 @@ h3, p {
   margin-bottom: 2em;
 }
 
+h4 {
+	margin-bottom: 1em;
+}
+
 /*
 =============
 Buttons
@@ -184,7 +188,7 @@ h3 {
 }
 
 h4 {
-  font: 300 1em/1.5em "Din", "Gidole", Helvetica, sans-serif;
+  font: 300 .75em/1.25em "Din", "Gidole", Helvetica, sans-serif;
 }
 
 h5 {
