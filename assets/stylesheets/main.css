@@ -65,9 +65,8 @@ Grid
 .container,
 .grid {
   margin: 0 auto;
-  width: 70vw;
+  width: 60vw;
   position: relative;
-	padding-left: 3.5em;
 }
 
 .container {
@@ -78,7 +77,14 @@ Grid
 .grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	background: #fff;
 }
+
+.col {
+	width: 60%;
+	padding: 3em;
+}
+
 /*
 =============
 Clearfix
@@ -105,9 +111,7 @@ Links
 */
 
 .row {
-  background: #fff;
-  width: 70vw;
-  padding: 30px 0 30px 0;
+  width: 60vw;
   margin: 10px auto;
 }
 
@@ -164,6 +168,7 @@ body {
   background-color: #EBE5F1;
   color: #252525;
   font: 300 1em/1.25em "Din", "Gidole", Helvetica, sans-serif;
+	border: 1.85em solid #fff;
 }
 
 h1 {
@@ -222,6 +227,10 @@ a:hover {
   cursor: pointer;
 }
 
+.primary-header {
+	padding-top: 7em;
+}
+
 .primary-footer {
   font-size: .8em;
   font-weight: 400;
@@ -231,3 +240,9 @@ a:hover {
 .btn-alt:hover {
   border: 1px solid #898888;
 }
+
+/*
+=============
+Smartphones (portrait and landscape)
+=============
+*/
