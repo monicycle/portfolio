@@ -169,10 +169,22 @@ Custom Styles
 */
 
 body {
-  background-color: #EBE5F1;
+  background-color: #f8f8f8;
   color: #252525;
   font: 300 1em/1.25em "Din", "Gidole", Helvetica, sans-serif;
 	border: 1.85em solid #fff;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.full-width-bar {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background: #F8F8F8;
+	margin-bottom: 2em;
 }
 
 h1 {
@@ -216,6 +228,14 @@ ul {
 	list-style-type: circle;
 }
 
+.body-image {
+	display: block;
+	margin: auto;
+}
+
+.list-content {
+	margin: 0 2em 2em 2em;
+}
 /*
 =============
 Links
