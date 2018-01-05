@@ -210,6 +210,10 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 {
+	font: 100 1em/1.25em "Din", "Gidole", Helvetica, sans-serif;
+}
+
 strong {
   font-weight: 600;
   color: #636363;
