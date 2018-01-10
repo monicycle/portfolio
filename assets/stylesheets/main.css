@@ -63,7 +63,8 @@ Grid
 }
 
 .container,
-.grid {
+.grid,
+.primary-footer {
   margin: 0 auto;
   width: 60vw;
   position: relative;
@@ -267,6 +268,10 @@ a:hover {
   font-size: .8em;
   font-weight: 400;
   padding: 44px 0;
+}
+
+.bottom-nav {
+	margin: 1em
 }
 
 .btn-alt:hover {
