@@ -119,7 +119,7 @@ body {
 }
 
 header {
-	width: 60%;
+	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
   margin-top: 15%;
@@ -150,8 +150,8 @@ li {
  }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-left: auto;
   margin-right: auto;
   justify-content: flex-start;
@@ -161,7 +161,7 @@ li {
 .project {
   position: relative;
   margin: 10px;
-  width: 75%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
