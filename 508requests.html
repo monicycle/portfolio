@@ -1,0 +1,131 @@
+<nav>
+  <div class="left-nav">
+    <a href="index.html">Home</a>
+  </div>
+
+  <div class="right-nav">
+    <a href="">Speaking & blogs</a>
+    <a href="">Resume</a>
+  </div>
+</nav>
+
+<header>
+<div class="header-text">
+<h1>
+  Testing applications for 508 compliance    </h1>
+<p>
+  Lead UX Designer, 2020-2021
+</p>
+
+<p>
+  EASi stands for Easy Access to System Information. We’ve heard it referred to as “the one stop shop for all things governance-related at the Center for Medicare and Medicaid (CMS).” Before we joined, CMS streamlined their governance processes with the Target Lifecycle (TLC), a process of getting approvals for new projects in the organization. In a lot of ways, EASi is a reflection of the TLC.    
+</p>
+
+<p>
+  Over the two years I was on the project, our team supported:</p>
+<ul>
+<li>Submitting a request for a project idea (IT Governance)</li>
+<li>Decommissioning a system</li>
+<li>Recompeting a system</li>
+<li>508 testing a system</li>
+</ul>
+</p>
+
+<p>
+  My team consisted of: 1 Delivery Manager, 1 Product Manager, 1 Design Lead (me), 1 UX Designer, 1 Engineering Manager, 2 infrastructure engineers, and 6 application engineers. We worked in 2 week agile sprint cycles and continuously delivered and released software.
+</p>
+
+<img src="frame-2.png">
+</div>
+</header>
+
+<section class="content">
+<h2>
+Understanding the problem(s)
+</h2>
+
+<p>
+Through our discovery we learned that the 508 process is actually quite enjoyable for project teams. The 508 team is responsive, kind, and knowledgeable – qualities that are sometimes lacking in other CMS processes. When speaking with the back office, they also tended to lean towards sharing the positives of their process, with few criticisms of their current process. Some concerns that they did share were:
+
+<ul>
+<li>Since their teams are split between feds (program team) and contractor (testing team), information and documents were siloed, leading to a lot of email back and forth</li>
+<li>There is no visibility into projects “In Remediation”, which is a significant compliance issue for CMS</li>
+</ul>
+</p>
+
+<p>
+After consistently probing with project teams, we learned they wanted more visibility into where they are in the process and the ability to more easily reuse documentation, as the VPAT and Test Plan can be time-consuming. 
+</p>
+
+<img src="frame-2.png">
+<p class="subtext">
+Sample service blueprint with project teams submitting a 508 request to the back office
+</p>
+
+<p>
+This led us to testing a few concepts:</P>
+<p>1. Access to all VPATs</p>
+<p>2. Document storage and access</p>
+<p>3. Keeping track of projects</p>
+
+<img src="frame-2.png">
+
+<p class="subtext">
+  Sample concept test we out in front of users during Discovery    
+</p>
+
+<p>
+Our concept testing sessions focused on the back office for the 508 workflow, mostly due to our learnings with IT governance and looping their back office team too late in the process. Again, for all governance processes, we strongly encourage you to focus on the back office experience first. The storyboards that resonated the most were “Document storage and access” and “Keeping track of projects” so we moved to building a prototype in code.
+</p>
+
+<img src="frame-2.png">
+
+<p class="subtext">
+  How we prioritized functionality to build and test further   
+</p>
+
+<p>
+The design team paired with an engineer to build the prototype in code so that we could test usability more effectively. With testing in code, we were also able to more accurately scope out functionality and only take on work that was feasible. If you're curious, feel free to <a href="https://dwiq37qi5w1vh.cloudfront.net/508/login">take a look at one of our coded prototypes.</a>
+</p>
+
+<p>
+Overall, we learned we were moving in the right direction and that storing documents and tracking statuses provided the back office team significant value.
+</p>
+
+<img src="frame-2.png">
+
+<p class="subtext">
+  A snapshot of our synthesis in Dovetail and Google Sheets  
+</p>    
+
+<h2>
+How we solved it
+</h2>
+
+<p> Based on our concept testing results, our engineering team went ahead and started building the document upload functionality for the back office. Based on the back office product, we were able to appropriately scope the customer experience and start testing how the end user would interact with the service. We again leaned heavily on help and guidance to inform folks on the importance of 508 testing and what they can expect from the process.
+</p>
+
+<p> We continued to usability test the back office experience as well, layering on capabilities to track statuses and manage dates & test scores. This helped the back office move away from managing their 508 testing in four different places,  and also created a  usable tool for their team members who have access needs. 
+</p>
+
+<img src="frame-2.png">
+
+<p class="subtext">
+  Sample help and guidance for 508 testing requests. <a href="https://www.figma.com/file/ncFpZBZZ8i8Ey7cBUxDjOW/Portfolio-EASi-Customer-Experience?node-id=2%3A13728" target="_blank" rel="noopener noreferrer">See it in Figma.</a>    
+</p>   
+
+<h2>
+Learnings
+</h2> 
+
+<p>We can learn a lot more about our users and the strength of our concepts when they remain abstract for the first few rounds of testing. By using a few different storyboards as provocations, we were able to more confidently understand high value use cases for our concepts, rather than drill down on the flow of a clickthrough app. This made moving from sketch to code so much easier as we spent less time questioning if specific functionality was valuable, and instead were able to ensure it was usable.
+</p>
+
+<p>This was also my first time building accessibly from the start of a project. Our discovery activities were all made accessible (mostly word docs), the concept tests were adapted into a conversation for our users with access needs, and our usability tests were run with a screen reader when appropriate. I paired with our engineers on checking completion of stories, including if they passed our accessibility standards. I still have a lot to learn about accessibility, but this project was such a wonderful experience to build empathy and ensure what we are building is equitable to all people, regardless of abilities.  
+</p>
+
+</section>
+
+<footer>
+<p>Made with ❤ by Mon</p>
+</footer>
