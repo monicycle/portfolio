@@ -226,12 +226,7 @@ footer {
 
 /* project pages */
 
-.header-text p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.header-container {
+.hero-container {
   display: flex;
   align-items: center;
   gap: 20px; 
@@ -239,9 +234,20 @@ footer {
   max-width: 1000px;
 }
 
-.header-image img {
+.hero-image img {
   max-width: 300px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
+}
+
+.hero-text p {
+  flex: 1;
+}
+
+.header-text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -281,3 +287,13 @@ footer {
   margin-bottom: 10%;
 }
 
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-bottom: 1.5rem;
+  }
+}
