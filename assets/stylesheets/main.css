@@ -157,6 +157,12 @@ li {
   padding-bottom: 40px;
  }
 
+ .clients p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
  .client-list {
   display: flex;
   justify-content: center; 
