@@ -152,19 +152,20 @@ li {
  .clients {
   margin-left: auto;
   margin-right: auto;
-  justify-content: flex-start;
-  margin: 0px 20px;
   background-color: #E5DAF7;
+  padding-top: 40px;
+  padding-bottom: 40px;
  }
 
  .client-list {
   display: flex;
-  justify-content: space-between; 
+  justify-content: center; 
   align-items: center;
+  gap: 1rem;
  }
 
  .clients img { 
-    width: 30%          
+    width: 20%          
   }
 
 .projects {
@@ -253,7 +254,7 @@ footer {
 }
 
 .hero-image img {
-  max-width: 300px;
+  max-width: 1000px;
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -300,27 +301,6 @@ footer {
   color: rgb(52, 61, 87);
   font-size: 14px;
   margin-bottom: 10%;
-}
-
-.custom-shape-divider-bottom-1758998688 {
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1758998688 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-bottom-1758998688 .shape-fill {
-  fill: #E5DAF7;
 }
 
 @media (max-width: 768px) {
