@@ -198,6 +198,21 @@ li {
   height: auto;
 }
 
+.projects .cta {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.projects .cta:hover {
+  background: #0056b3;
+}
+
+/* 
 .project {
   position: relative;
   margin: 10px;
@@ -205,6 +220,7 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+*/
 
 .overlay {
   opacity: 0;
