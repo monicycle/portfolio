@@ -154,12 +154,14 @@ li {
   margin-right: auto;
   justify-content: flex-start;
   margin: 0px 20px;
+  background-color: #E5DAF7;
  }
 
  .clients img {
     display: flex;
     justify-content: space-between; 
-    align-items: center;           
+    align-items: center; 
+    width: 30%          
   }
 
 .projects {
@@ -221,12 +223,12 @@ li {
   width: 100%;
 }
 
-.content h2 {
+h2 {
   font-size: 40px;
   line-height: 1.2;
 }
 
-.content h3 {
+h3 {
   color:#7e7e7e;
   margin-bottom: 5%;
 }
@@ -299,7 +301,7 @@ footer {
 
 .custom-shape-divider-bottom-1758998688 {
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
   left: 0;
   width: 100%;
   overflow: hidden;
