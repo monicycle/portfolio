@@ -149,6 +149,19 @@ li {
     list-style-type: circle;
  }
 
+ .clients {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  margin: 0px 20px;
+ }
+
+ .clients img {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+  }
+
 .projects {
   /* display: flex;
   flex-wrap: wrap; */
