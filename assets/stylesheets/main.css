@@ -157,10 +157,13 @@ li {
   background-color: #E5DAF7;
  }
 
- .clients img {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+ .client-list {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+ }
+
+ .clients img { 
     width: 30%          
   }
 
