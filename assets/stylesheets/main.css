@@ -295,11 +295,15 @@ footer {
   width: 100%;
 }
 
+.intro-section img {
+  display: block;
+  margin: 0 auto;
+}
+
 .problem-intro {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 10%;
 }
 
 .hero-container {
