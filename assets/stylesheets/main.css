@@ -292,6 +292,11 @@ footer {
   margin-bottom: 5%;
 }
 
+.intro-section {
+  background: linear-gradient(to right, #EADDFF, #F9E2CE);
+  padding: 3rem;
+}
+
 .hero-container {
   display: flex;
   align-items: center;
