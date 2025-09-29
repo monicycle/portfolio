@@ -150,15 +150,15 @@ li {
  }
 
  .metrics ul {
-  display: inline;
-  list-style-type: none;
-  gap: 1rem;
+  display: flex;
+  padding-left: 0;
  }
 
  .metrics li {
   font-size: 32px;
   font-family: roboto slab;
   font-weight: 400;
+  list-style-type: none;
  }
 
  .clients {
