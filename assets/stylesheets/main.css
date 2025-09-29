@@ -273,8 +273,6 @@ h2 {
 }
 
 h3 {
-  color:#7e7e7e;
-  margin-bottom: 5%;
   font-size: 32px;
 }
 
@@ -339,8 +337,9 @@ footer {
 }
 
 .content img {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  width: 50%;
+  display: block;
+  margin: 5% auto;
 }
 
 .content a {
