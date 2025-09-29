@@ -188,13 +188,13 @@ li {
   margin-bottom: 20px;
 }
 
-.case-study {
+.card {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.case-study img {
+.card img {
   max-width: 40%;
   height: auto;
 }
