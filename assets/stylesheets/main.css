@@ -153,15 +153,15 @@ li {
   margin-left: auto;
   margin-right: auto;
   background-color: #E5DAF7;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
  }
 
  .clients p {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
  }
 
  .client-list {
@@ -173,7 +173,7 @@ li {
  }
 
  .clients img { 
-    width: 20% 
+    width: 15%;
   }
 
 .projects {
