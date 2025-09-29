@@ -138,7 +138,7 @@ header a:hover {
 }
 
 header h1 {
-	font-size: 32px;
+	font-size: 54px;
 	font-weight: 700;
   font-family: Roboto Slab;
 }
@@ -269,12 +269,13 @@ li {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 48px;
 }
 
 h3 {
   color:#7e7e7e;
   margin-bottom: 5%;
+  font-size: 32px;
 }
 
 footer {
@@ -336,13 +337,6 @@ footer {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
-/*
-.content h2 {
-  font-size: 18px;
-  font-weight: 700;
-}
-*/
 
 .content img {
   margin-top: 5%;
