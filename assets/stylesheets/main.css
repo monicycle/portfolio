@@ -196,7 +196,7 @@ li {
 }
 
 .case-study img {
-  max-width: 25%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -295,6 +295,13 @@ footer {
 .intro-section {
   background: linear-gradient(to right, #EADDFF, #F9E2CE);
   padding: 3rem;
+  width: 100%;
+}
+
+.problem-intro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .hero-container {
