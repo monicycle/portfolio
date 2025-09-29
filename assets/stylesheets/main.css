@@ -302,6 +302,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-top: 10%;
 }
 
 .hero-container {
@@ -320,6 +321,12 @@ footer {
 }
 
 .hero-text p {
+  flex: 1;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.problem-intro-text p {
   flex: 1;
   margin-top: 40px;
   margin-bottom: 40px;
