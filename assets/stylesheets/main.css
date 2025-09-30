@@ -330,7 +330,11 @@ footer {
 }
 
 .content p { 
-  margin-top: 10px;
+  margin-top: 1rem;
+}
+
+.body-content p {
+  margin-top: 1rem;
 }
 
 .subtext {
