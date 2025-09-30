@@ -149,7 +149,7 @@ li {
     list-style-type: circle;
  }
 
- .section-metrics ul {
+ .metrics-section {
   display: flex;
   padding-left: 0;
   margin-bottom: 5%;
@@ -379,11 +379,15 @@ footer {
 
 .NextCase {
   background-color: #E5DAF7;
-  width: 70%;
+  width: 100%;
+}
+
+.NextCase-container{
 	margin-right: auto;
 	margin-left: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  width: 70%;
 }
 
 .subheadline p {
