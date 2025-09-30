@@ -164,7 +164,7 @@ li {
  .clients {
   margin-left: auto;
   margin-right: auto;
-  background-color: #E5DAF7;
+  background: linear-gradient(to right, #EADDFF, #F9E2CE);
   padding-top: 5%;
   padding-bottom: 5%;
  }
@@ -213,8 +213,8 @@ li {
 
 .projects .cta {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border: 3px;
+  padding: 1rem .75rem .75rem .75rem
+  border: 3px solid black;
   border-radius: 8px;
   background: #E5EEFF;
   color: black;
