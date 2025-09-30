@@ -216,7 +216,7 @@ li {
   height: auto;
 }
 
-.projects .cta {
+.cta {
   display: inline-block;
   padding: .75rem .5rem .5rem .5rem;
   border: 1px solid black;
@@ -229,7 +229,7 @@ li {
   box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.5);
 }
 
-.projects .cta:hover {
+.cta:hover {
   background: #CCDEFF;
   color: black;
 }
