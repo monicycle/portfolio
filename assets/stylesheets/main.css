@@ -298,6 +298,14 @@ footer {
   margin-top: 20px;
 }
 
+.body-content {
+  width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .content {
 	width: 70%;
 	margin-right: auto;
