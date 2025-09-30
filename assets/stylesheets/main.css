@@ -214,18 +214,19 @@ li {
 .projects .cta {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border: none;
+  border: 3px;
   border-radius: 8px;
-  background: #007bff;
-  color: white;
+  background: #E5EEFF;
+  color: black;
   font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.2);
 }
 
 .projects .cta:hover {
-  background: #0056b3;
-  color: white;
+  background: #CCDEFF;
+  color: black;
 }
 
 /* 
@@ -378,21 +379,16 @@ footer {
 }
 
 .NextCase {
-  background-color: #E5DAF7;
+  background: linear-gradient(to right, #EADDFF, #F9E2CE);
   width: 100%;
 }
 
 .NextCase-container{
 	margin-right: auto;
 	margin-left: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
   width: 70%;
-}
-
-.subheadline p {
-  color: red;
-  font-family: monospace;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
