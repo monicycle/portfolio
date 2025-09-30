@@ -242,6 +242,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+.subparagraph {
+  margin-bottom: 1rem;
+}
+
 footer {
   padding: 15px;
   text-align: right;
@@ -310,8 +314,6 @@ footer {
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
-  /* margin-top: 5%;
-  margin-bottom: 5%; */
 }
 
 .content img {
