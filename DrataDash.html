@@ -15,126 +15,143 @@
   </div>
 
   <div class="right-nav">
-    <a href="speaking.html">Speaking & blogs</a>
+    <a href="about.html">About</a>
     <a href="resume.html">Resume</a>
   </div>
 </nav>
 
-<header>
-<div class="header-text">
-<h1>
-  Testing applications for 508 compliance    </h1>
-<p>
-  Lead UX Designer, 2020-2021
-</p>
 
-<p>
-  EASi stands for Easy Access to System Information. We’ve heard it referred to as “the one stop shop for all things governance-related at the Center for Medicare and Medicaid (CMS).” Before we joined, CMS streamlined their governance processes with the Target Lifecycle (TLC), a process of getting approvals for new projects in the organization. In a lot of ways, EASi is a reflection of the TLC.    
-</p>
+<section class="intro-section">
+  <header>
+    <img src="./assets/photos/Task list.png">
+    <div class="title-text">
+     <h1>Drata’s compliance dashboard</h1>
+     <p>Streamlined GRC monitoring — less manual effort, stronger audit outcomes.</p>
+    </div>
 
-<p>
-  Over the two years I was on the project, our team supported:</p>
-<ul>
-<li>Submitting a request for a project idea (IT Governance)</li>
-<li>Decommissioning a system</li>
-<li>Recompeting a system</li>
-<li>508 testing a system</li>
-</ul>
-</p>
+    <div class="problem-intro">
+      <div class="problem-intro-text">
+        <h2>The problem</h2>
+        <p>Drata’s original compliance dashboard wasn’t meeting the needs of our Compliance Manager persona. Key information was either buried or absent, making it difficult for users to quickly understand their organization’s security and compliance posture.</p>
+        <p>Worse, some of the data presented could be misleading—creating confusion and risking a loss of trust in the platform. This was a missed opportunity to deliver immediate, actionable insight in a space where clarity and accuracy are critical.</p>
+      </div>
 
-<p>
-  My team consisted of: 1 Delivery Manager, 1 Product Manager, 1 Design Lead (me), 1 UX Designer, 1 Engineering Manager, 2 infrastructure engineers, and 6 application engineers. We worked in 2 week agile sprint cycles and continuously delivered and released software.
-</p>
+      <div class="content">
+       <h3>The team</h3>
+       <ul>
+         <li>Product Manager</li>
+         <li>Engineering Manager</li>
+         <li>6 Engineers</li>
+         <li>Senior Product Designer (me)</li>
+       </ul>
+     </div>
+   </div>
+  </header>
+</section>
 
-<img src="./assets/photos/Frame2.png">
-</div>
-</header>
 
 <section class="content">
-<h2>
-Understanding the problem(s)
-</h2>
+  <h2>Discovery</h2>
 
-<p>
-Through our discovery we learned that the 508 process is actually quite enjoyable for project teams. The 508 team is responsive, kind, and knowledgeable – qualities that are sometimes lacking in other CMS processes. When speaking with the back office, they also tended to lean towards sharing the positives of their process, with few criticisms of their current process. Some concerns that they did share were:
+  <div class="card">
+    <div class="content">
+      <h3>Review existing research</h3>
+      <p>I started by reviewing existing research across Gong, Slack, and internal documentation to understand what wasn’t working with the existing dashboard. While Drata hadn’t consistently grounded projects in user problems before, I wanted to ensure we were solving the right one.</p>
+      <p>Through this investigation, I aligned with leadership on a shared definition: a dashboard should highlight what needs attention and make it easy to act. For our Compliance Manager persona—especially in SMB and Mid-Market segments—the primary goal is maintaining audit readiness.</p>
+      <p>This insight led to a clear hypothesis: We needed an operational dashboard—one that immediately flags issues and enables fast resolution.</p>
+    </div>
+    <img src="./assets/photos/Stakeholder-user-needs.png">
+  </div>
 
-<ul>
-<li>Since their teams are split between feds (program team) and contractor (testing team), information and documents were siloed, leading to a lot of email back and forth</li>
-<li>There is no visibility into projects “In Remediation”, which is a significant compliance issue for CMS</li>
-</ul>
-</p>
+  <div class="card">
+    <div class="content">
+      <h3>Audit existing dashboard</h3>
+      <p>I audited Drata’s current dashboard to evaluate how well it met the core user need: “show me what I need to fix.”</p>
+      <p>What I found was a largely non-operational experience. Aside from prompting users to fix integrations, most of the content duplicated navigation elements or surfaced low-value metrics—offering little actionable insight for compliance managers.</p>
+    </div>
+  <img src="./assets/photos/Stakeholder-user-needs.png">
+  </div>
 
-<p>
-After consistently probing with project teams, we learned they wanted more visibility into where they are in the process and the ability to more easily reuse documentation, as the VPAT and Test Plan can be time-consuming. 
-</p>
+  <div class="card">
+    <div class="content">
+      <h3>Usability testing</h3>
+      <p>Following contextual inquiry, I designed and tested multiple dashboard iterations focused on key user jobs:</p>
+      <ul>
+        <li>Seeing audit readiness by framework</li>
+        <li>Identifying which tests need fixing</li>
+        <li>Prioritizing upcoming tasks</li>
+        <li>Understanding the overall state of their compliance program</li>
+      </ul>
+    <p>Each version was reviewed with engineers, internal users, and leadership to ensure alignment and effectiveness.</p>
+    <ul>
+      <li>Compliance work is largely tactical—managing and preventing failures.</li>
+      <li>Cumulative failures lack context and aren't helpful for assessing progress.</li>
+      <li>Users need to understand why something changed to take meaningful action.</li>
+      <li>Prioritized, grouped data enables more efficient workflows.</li>
+      <li>Drata is often used reactively, triggered by email or Slack notifications.</li>
+    </ul>
+   </div>
+    <img src="./assets/photos/Stakeholder-user-needs.png">
+  </div>
 
-<img src="./assets/photos/508-blueprint.png">
-<p class="subtext">
-Sample service blueprint with project teams submitting a 508 request to the back office
-</p>
+  <h2>Solution</h2>
+  <p>To support the dashboard redesign, I updated and extended our design system — introducing new components, refining visual styles, and ensuring consistency across layouts. These system-level changes not only improved the dashboard experience but also gave our team reusable building blocks that sped up future feature development.</p>
+  <div class="card">
+    <img src="./assets/photos/Stakeholder-user-needs.png">
+    <div class="content">
+      <h3>Gated Task List with Clear Statuses</h3>
+      <p>The IT governance process spans several weeks and includes multiple steps, reviews, and handoffs. A task list provided a high-level overview of all steps in the governance journey while focusing the user's attention on their current step. It offered just-in-time clarity and helped reduce confusion, delays, and the back-and-forth that often occurred due to missing information or incomplete documentation.</p>
+    </div>
+  </div>
 
-<p>
-This led us to testing a few concepts:</P>
-<p>1. Access to all VPATs</p>
-<p>2. Document storage and access</p>
-<p>3. Keeping track of projects</p>
+<div class="card">
+  <img src="./assets/photos/Stakeholder-user-needs.png">
+  <div class="content">
+    <h3>A Back Office Tool for IT Governance</h3>
+    <p>Because the gated task list required someone to advance Business Owners through each step, we designed a companion tool for the IT Governance team. This internal tool gave the back office a centralized way to manage all incoming requests. It allowed them to update task statuses, assign team members, track associated documentation, add internal notes, and send communications—all from one place. By replacing manual emails and scattered SharePoint files, the tool improved efficiency, reduced errors, and ensured smoother handoffs throughout the governance process.</p>
+  </div>
+</div>
 
-<img src="./assets/photos/508-concepts.png">
+<div class="card">
+  <img src="./assets/photos/Stakeholder-user-needs.png">
+  <div class="content">
+    <h3>Digitizing the Intake Form & Business Case</h3>
+    <p>Two key documents in the governance process—the Intake Form and the Business Case—were originally completed in static Word documents. Business Owners often found the questions unclear, which led to frequent back-and-forth with the IT Governance team for clarification. To reduce friction and improve the quality of submissions, we digitized both forms. This included refining and simplifying the form fields, embedding contextual help and guidance, and adding error prevention features. The result was a more intuitive experience that empowered Business Owners to complete documentation confidently and correctly the first time—saving time for both them and the back office.</p>
+  </div>
+</div>
 
-<p class="subtext">
-  Sample concept test we out in front of users during Discovery    
-</p>
 
-<p>
-Our concept testing sessions focused on the back office for the 508 workflow, mostly due to our learnings with IT governance and looping their back office team too late in the process. Again, for all governance processes, we strongly encourage you to focus on the back office experience first. The storyboards that resonated the most were “Document storage and access” and “Keeping track of projects” so we moved to building a prototype in code.
-</p>
+  <h2>Impact</h2>
+  <p>Measurements were collected over the course of a quarter, and we found that EASi was performing well for both Business Owners and back office staff. While the project concluded before we could evaluate year-over-year impact on shadow IT, end users reported improvements in usability, document retention, and overall process clarity.</p>
+  <div class="metrics-section">
+    <ul>
+      <li class="metrics">21 of 21 divisions onboarded</li>
+      <li class="metrics">85% completion rate</li>
+      <li class="metrics">54% faster approvals </li>
+    </ul>
+  </div>
 
-<img src="./assets/photos/508-prioritization.png">
+  <h2>Learnings</h2>
+  <p>At the start of the project, our Product Owner advised us to focus primarily on the customer experience, noting that "the back office works for CMS and doesn’t need all the bells and whistles." Given the scope of generative research ahead, I aligned with that direction.</p>
+  <p>However, a few months in, it became clear that while the back office team would be required to use the new system, they had significant needs of their own—needs that weren’t captured in our initial discovery. As a result, conversations with them became difficult and frustrating; we had unintentionally deprioritized a critical part of the service ecosystem.</p>
+  <p>This experience taught me a lasting lesson: start with the back office. Understand their workflows, pain points, and priorities first. When their needs are addressed, the broader service experience becomes exponentially stronger. In this case, it took several hard conversations and a conscious decision to descope parts of the customer-facing experience to ensure a seamless transition for the internal team.</p>
+  <p>In the end, we successfully replaced their tooling without disruption—but we learned the hard way that real service design starts from the inside out.</p>
 
-<p class="subtext">
-  How we prioritized functionality to build and test further   
-</p>
+</section>
 
-<p>
-The design team paired with an engineer to build the prototype in code so that we could test usability more effectively. With testing in code, we were also able to more accurately scope out functionality and only take on work that was feasible. If you're curious, feel free to <a href="https://dwiq37qi5w1vh.cloudfront.net/508/login">take a look at one of our coded prototypes.</a>
-</p>
-
-<p>
-Overall, we learned we were moving in the right direction and that storing documents and tracking statuses provided the back office team significant value.
-</p>
-
-<img src="./assets/photos/dovetail.png">
-
-<p class="subtext">
-  A snapshot of our Dovetail organization  
-</p>    
-
-<h2>
-How we solved it
-</h2>
-
-<p> Based on our concept testing results, our engineering team went ahead and started building the document upload functionality for the back office. Based on the back office product, we were able to appropriately scope the customer experience and start testing how the end user would interact with the service. We again leaned heavily on help and guidance to inform folks on the importance of 508 testing and what they can expect from the process.
-</p>
-
-<p> We continued to usability test the back office experience as well, layering on capabilities to track statuses and manage dates & test scores. This helped the back office move away from managing their 508 testing in four different places,  and also created a  usable tool for their team members who have access needs. 
-</p>
-
-<img src="./assets/photos/508-hg.png">
-
-<p class="subtext">
-  Sample help and guidance for 508 testing requests. <a href="https://www.figma.com/file/ncFpZBZZ8i8Ey7cBUxDjOW/Portfolio-EASi-Customer-Experience?node-id=2%3A13728" target="_blank" rel="noopener noreferrer">See it in Figma.</a>    
-</p>   
-
-<h2>
-Learnings
-</h2> 
-
-<p>We can learn a lot more about our users and the strength of our concepts when they remain abstract for the first few rounds of testing. By using a few different storyboards as provocations, we were able to more confidently understand high value use cases for our concepts, rather than drill down on the flow of a clickthrough app. This made moving from sketch to code so much easier as we spent less time questioning if specific functionality was valuable, and instead were able to ensure it was usable.
-</p>
-
-<p>This was also my first time building accessibly from the start of a project. Our discovery activities were all made accessible (mostly word docs), the concept tests were adapted into a conversation for our users with access needs, and our usability tests were run with a screen reader when appropriate. I paired with our engineers on checking completion of stories, including if they passed our accessibility standards. I still have a lot to learn about accessibility, but this project was such a wonderful experience to build empathy and ensure what we are building is equitable to all people, regardless of abilities.  
-</p>
-
+<section class="NextCase">
+  <div class ="NextCase-container">
+    <h3>Next Case Study</h3>
+    <div class="card">
+      <img src="./assets/photos/Frame4.png">
+      <div class="content">
+          <p>B2B Web App design | CMS | 2021</p>
+          <h3>Easy Access to System Information</h3>
+          <p>Designing transparency into the system-lifecycle governance process at CMS</p>
+        <a href="governance.html" class="cta">Go to case study</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <footer>
